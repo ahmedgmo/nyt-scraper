@@ -1,27 +1,19 @@
 {
-  "name": "nyt-scraper",
+  "name": "mongo_homework",
   "version": "1.0.0",
-  "description": "package for nytscraper",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shrekstah/nyt-scraper.git"
-  },
-  "author": "Ahmed Osman",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shrekstah/nyt-scraper/issues"
-  },
-  "homepage": "https://github.com/shrekstah/nyt-scraper#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.2.9",
-    "request": "^2.88.0"
+    "mongoose": "^5.1.6"
   }
 }
